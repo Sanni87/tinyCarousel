@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test Suite</title>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.11.3.css">
+    <script src="../src/tinyCarousel.plugin.js"></script>
+    <!--<script src="../dist/tinyCarousel.min.js"></script>-->
+    <script src="https://code.jquery.com/qunit/qunit-2.11.3.js"></script>
+    <style>
+        .jslider {
+            height: 100px;
+            overflow-y: hidden;
+            overflow-x: scroll;
+            display: flex;
+            width: 100%;
+        }
+
+        .jslider > .jitem {
+            display: grid;
+            height: 100px;
+            width: 200px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .jslider > .jitem.violet {
+            background-color: blueviolet;
+        }
+
+        .jslider > .jitem.red {
+            background-color: crimson;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <div id="toTest">
+        <div class="jslider">
+            <div class="jitem violet">Click me!</div>
+            <div class="jitem">Click me!</div>
+            <div class="jitem violet">Click me!</div>
+            <div class="jitem">Click me!</div>
+            <div class="jitem violet">Click me!</div>
+            <div class="jitem">Click me!</div>
+            <div class="jitem violet">Click me!</div>
+            <div class="jitem violet">Click me!</div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+  </body>
+</html>

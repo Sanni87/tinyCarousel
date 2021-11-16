@@ -1,0 +1,40 @@
+{
+  "name": "tiny-carousel",
+  "version": "0.0.1",
+  "description": "a tiny plugin to make a carousel on your webpage",
+  "main": "dist/tinyCarousel.module.js",
+  "keywords": [
+    "tiny",
+    "carousel",
+    "slider",
+    "marquee"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "qunit --require esm",
+    "build-prod": "webpack --config ./webpack.config.prod.js",
+    "build-dev": "webpack --config ./webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanni87/tinyCarousel.git"
+  },
+  "author": "Sanni87",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sanni87/tinyCarousel/issues"
+  },
+  "homepage": "https://github.com/Sanni87/tinyCarousel#readme",
+  "devDependencies": {
+    "jsdom": "^16.4.0",
+    "qunit": "^2.11.3",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "esm": "^3.2.25"
+  }
+}
