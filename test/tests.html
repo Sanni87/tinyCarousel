@@ -15,10 +15,11 @@
             overflow-x: scroll;
             display: flex;
             width: 100%;
+            display: grid;
+            grid-auto-flow: column;
         }
 
         .jslider > .jitem {
-            display: grid; 
             height: 100px;
             width: 200px;
             margin-left: 5px;
@@ -40,12 +41,13 @@
     <div id="toTest">
         <div class="jslider">
             <div class="jitem violet">Click me!</div>
-            <div class="jitem">Click me!</div>
+            <div class="jitem red">Click me!</div>
             <div class="jitem violet">Click me!</div>
-            <div class="jitem">Click me!</div>
+            <div class="jitem red">Click me!</div>
             <div class="jitem violet">Click me!</div>
-            <div class="jitem">Click me!</div>
+            <div class="jitem red">Click me!</div>
             <div class="jitem violet">Click me!</div>
+            <div class="jitem red">Click me!</div>
             <div class="jitem violet">Click me!</div>
         </div>
     </div>
